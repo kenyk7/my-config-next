@@ -1,4 +1,4 @@
-$p-color: #0070f3;
+@import 'variables';
 
 .container {
   padding: 0 2rem;
@@ -31,7 +31,7 @@ $p-color: #0070f3;
 }
 
 .title a {
-  color: $p-color;
+  color: $color-primary;
   text-decoration: none;
 }
 
@@ -90,8 +90,8 @@ $p-color: #0070f3;
 .card:hover,
 .card:focus,
 .card:active {
-  color: $p-color;
-  border-color: $p-color;
+  color: $color-primary;
+  border-color: $color-primary;
 }
 
 .card h2 {
