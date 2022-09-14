@@ -1,9 +1,8 @@
 import { ReactNode } from 'react';
 import Image from 'next/image';
 
+import styles from 'styles/Home.module.scss';
 import CustomSeoHead from './CustomSeoHead';
-
-import styles from '../../styles/Home.module.scss';
 
 type LayoutProps = {
   children: ReactNode;
