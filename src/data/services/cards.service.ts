@@ -8,8 +8,8 @@ type CardApi = Omit<Card, 'info'> & {
 
 class CardsService implements CardRepository {
   static cardMapper(item: CardApi): Card {
-    const { name, description: info, url } = item;
-    return { name, info, url };
+    const { description: info } = item;
+    return { ...item, info };
   }
 
   getCards = async () => {
