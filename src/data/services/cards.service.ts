@@ -1,6 +1,6 @@
 /* eslint class-methods-use-this: "off" */
-import { Card } from 'domain/cards/Card';
-import { CardRepository } from 'domain/cards/card.repository';
+import { Card } from '@/domain/cards/Card';
+import { CardRepository } from '@/domain/cards/card.repository';
 
 type CardApi = Omit<Card, 'info'> & {
   description: string;

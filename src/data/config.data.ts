@@ -1,4 +1,4 @@
-import { CardRepository } from 'domain/cards/card.repository';
+import { CardRepository } from '@/domain/cards/card.repository';
 import { cardsService } from './services/cards.service';
 // import { cardsLocal } from './local/cards.local';
 

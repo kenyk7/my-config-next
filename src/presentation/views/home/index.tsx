@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
-import { configData } from 'data/config.data';
-import { Card } from 'domain/cards/Card';
-import styles from 'styles/Home.module.scss';
+import { configData } from '@/data/config.data';
+import { Card } from '@/domain/cards/Card';
+import styles from './Home.module.scss';
 
 export const HomeView = () => {
   const [cards, setCards] = useState<Card[]>([]);

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import Image from 'next/image';
 
-import styles from 'styles/Home.module.scss';
+import styles from './Layout.module.scss';
 import CustomSeoHead from './CustomSeoHead';
 
 type LayoutProps = {
