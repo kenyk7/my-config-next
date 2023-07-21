@@ -4,6 +4,7 @@
     "steoates.autoimport",
     "EditorConfig.EditorConfig",
     "syler.sass-indented",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint"
   ]
 }
