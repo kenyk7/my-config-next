@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { configData } from '@/data/config.data';
 import { Card } from '@/domain/cards/Card';
+
 import styles from './Home.module.scss';
 
 export const HomeView = () => {

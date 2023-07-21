@@ -1,8 +1,9 @@
 {
-	"recommendations": [
-		"esbenp.prettier-vscode",
+  "recommendations": [
+    "esbenp.prettier-vscode",
     "steoates.autoimport",
     "EditorConfig.EditorConfig",
-    "syler.sass-indented"
-	]
+    "syler.sass-indented",
+    "dbaeumer.vscode-eslint"
+  ]
 }
